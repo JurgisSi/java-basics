@@ -1,6 +1,6 @@
-package com.company;
+package com.swedbank.demo;
 
-public class Main {
+public class Demo {
 
     public static void main(String[] args) {
 	// write your code here

@@ -1,18 +1,25 @@
-package com.company;
+package com.swedbank.basics;
 
 import java.net.HttpURLConnection;
 
 public class Conditionals {
 
     public static void main(String[] args) {
+
+        System.out.println("If clause:");
         ifClause();
+
+        System.out.println("\nSwitch clause:");
         switchClause();
+
+        System.out.println("\nEnhanced switch clause:");
         enhancedSwitchClause();
     }
 
     private static void ifClause() {
         int number = 7;
 
+        //  == != < <= > >=
         if ((number % 3 == 0) && (number % 5 == 0)) {
             System.out.println("Foo Bar");
         } else if (number % 3 == 0) {

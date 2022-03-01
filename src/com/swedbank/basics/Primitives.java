@@ -1,4 +1,4 @@
-package com.company;
+package com.swedbank.basics;
 
 public class Primitives {
 
@@ -12,8 +12,6 @@ public class Primitives {
         double height = 185.36;
         char grade = 'F';
         boolean on = true;                  // true / false
-
-
 
         System.out.println("Shoe size: " + shoeSize);
         System.out.println("Age: " + age);
